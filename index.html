@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <h1 class="title">Calculator</h1>
+    <div id="calculator">
+        <div class="screen formula">
+                
+        </div>
+        <div class="screen input">
+
+        </div>
+        <div class="buttons">
+            <button class="key ac" id="clear" value="AC" data-key_type="clear">AC</button>
+            <button class ="key" id="divide" value="/" data-key_type="operator">/</button>
+            <button class ="key" id="multi" value="*"  data-key_type="operator">x</button>
+            <button class ="key" id="7" value="7"  data-key_type="number">7</button>
+            <button class ="key" id="8" value="8"  data-key_type="number">8</button>
+            <button class ="key" id="9" value="9"  data-key_type="number">9</button>
+            <button class ="key" id="minus" value="-"  data-key_type="operator">-</button>
+            <button class ="key" id="4" value="4" data-key_type="number">4</button>
+            <button class ="key" id="5" value="5" data-key_type="number">5</button>
+            <button class ="key" id="6" value="6" data-key_type="number">6</button>
+            <button class ="key" id="plus" value="+" data-key_type="operator">+</button>
+            <button class ="key" id="1" value="1" data-key_type="number">1</button>
+            <button class ="key" id="2" value="2" data-key_type="number">2</button>
+            <button class ="key" id="3" value="3" data-key_type="number">3</button>
+            <button class ="key" id="zero" value="0" data-key_type="number">0</button>
+            <button class ="key" id="period" value="." data-key_type="decimal">.</button>
+            <button class ="key" id="equals" value="=" data-key_type="equals">=</button>
+        </div>
+    </div>
+    <div id="toast" class="hide">this is toast</div>
+    <script type="module" src="script.js"></script>
+    <!-- <script type="module" src="script-mod.js"></script> -->
+</body>
+</html>
