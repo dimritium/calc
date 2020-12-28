@@ -76,6 +76,11 @@ html {
     padding: 0px 5px;
 }
 
+.formula.screen {
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
 #zero {
     width: 170px;
 }
@@ -109,6 +114,7 @@ html {
     background-color: #ff585879;
     border: 1px solid #9c9595;
     border-radius: 10px;
+    
 }
 
 #toast {
